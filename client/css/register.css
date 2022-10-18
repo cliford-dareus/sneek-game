@@ -1,0 +1,79 @@
+.main__content{
+    width: 100%;
+    height: calc(100vh - 70px);
+    justify-content: space-between;
+}
+
+.register__left__side{
+    width: 35%;
+    flex-direction: column;
+    padding: 8em 0;
+}
+
+.register__left__side__title{
+    align-self: flex-start;
+    margin-bottom: 2em;
+}
+
+.register__left__side__title h2{
+    margin-bottom: .5em;
+}
+
+.register__form,
+.login__form {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.register__form input{
+    padding: 1em;
+    margin: 1em 0 2.5em;
+    border-radius: .5em;
+    outline: none;
+    border: none;
+}
+
+.register__form__btn{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: blue;
+    color: #fff;
+}
+
+
+/* ========================== Rigth Side ===========================*/
+
+.register__rigth__side{
+    width: 50%;
+    height: 100%;
+}
+
+.register__rigth__side__background{
+    width: 100%;
+    height: 90%;
+    border-radius: 1em;
+    background-image: url(../asset/God_of_War_4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.register__rigth__side__text{
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+    background-color: rgba(40, 42, 41, 0.53);
+    padding: 5em 2em;
+    flex-direction: column;
+}
+
+.register__rigth__side__text__content{
+    margin-bottom: auto;
+    margin-top: 2em;
+}
+
+.register__rigth__side__text__content h3{
+    margin: 1em 0;
+}

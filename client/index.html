@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneek/Gaming</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/collection.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav flex center">
+            <div class="logo__container flex center">
+                <p class="logo__first__half">Sneek/</p>
+                <p class="logo__second__half">Gaming</p>
+            </div>
+
+            <form action="" class="nav__form flex center">
+                <input type="text" placeholder="search games..." class="search__input">
+                <button type="submit" class="search__btn"></button>
+            </form>
+
+            <nav class="main__navigation">
+                <ul class="nav__list flex center">
+                    <li class="nav__item">
+                        <a href="#/" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#/favorite" class="nav__link">Favorite</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#/collection" class="nav__link">Collections</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#/login" class="nav__link login__btn">Log In</a>
+                    </li>
+                    <li class="nav__item profile__container">
+                        <a href="#/register" class="nav__link btn register__btn">Resgiter</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="outlet" id="outlet"></div>
+    </main>
+    <script src="//unpkg.com/navigo@7.1.2"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

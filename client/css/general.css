@@ -1,0 +1,110 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(0, 0%, 5%);
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* ======================== UTILITIES ========================== */
+.container{
+    max-width: 90%;
+    margin-inline: auto;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    padding: .5em 1.5em;
+    border-radius: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+}
+
+
+
+/* ============================= NAVBAR ========================== */
+
+.header{
+    width: 100%;
+    height: 70px;
+}
+
+.nav{
+    height: 100%;
+    padding: 3em 0;
+}
+
+.logo__container{
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.logo__first__half{
+    display: inline-block;
+    /* margin-bottom: .5em; */
+}
+
+.logo__second__half{
+    display: inline-block;
+    /* margin-top: 1em; */
+    color: blue;
+}
+
+.nav__form{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.search__input{
+    width: 90%;
+    padding: .5em;
+    background-color: transparent;
+    color: #fff;
+    /* background-color: hsl(0, 1%, 13%); */
+    outline: none;
+    border: none;
+}
+
+/* .search__btn{
+
+} */
+
+.main__navigation{
+    margin-left: 1em;
+}
+
+.nav__list{
+    gap: 1em;
+}
+
+.register__btn{
+    background-color: blue;
+}
